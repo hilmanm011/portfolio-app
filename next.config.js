@@ -1,11 +1,3 @@
-// module.exports = {
-//   i18n: {
-//     locales: ['en'], // Add your languages here
-//     defaultLocale: 'en',
-//     localeDetection: false,
-//   },
-// }
-
 /**
  * @type {import('next').NextConfig}
  */
@@ -18,4 +10,12 @@
   // distDir: 'dist',
 };
  
-module.exports = nextConfig;
+
+module.exports = {
+  i18n: {
+    locales: ['en'], // Add your languages here
+    defaultLocale: 'en',
+    localeDetection: false,
+  },
+  nextConfig
+}
